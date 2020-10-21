@@ -169,7 +169,6 @@ export default class ProgressBar extends Component {
     let gradientBackground = null;
     if (this.props.gradient != null) {
       progressStyle.backgroundColor = null;
-      console.log(this.props.gradient)
       gradientBackground = (
         <LinearGradient
           start={this.props.gradient.start}
